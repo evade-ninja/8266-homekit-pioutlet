@@ -6,9 +6,10 @@
 #include <WiFiManager.h>	// https://github.com/tzapu/WiFiManager
 
 extern "C" homekit_server_config_t config;
-extern "C" homekit_characteristic_t switcher;
+extern "C" homekit_characteristic_t switcher1;
+extern "C" homekit_characteristic_t switcher2;
 
-#include "chime.h"
+#include "outlet.h"
 
 #define PIN_BUTTON D5 		// D5 Button
 
